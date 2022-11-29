@@ -1,0 +1,12 @@
+import './Contact.css'
+import ContactForm from './ContactForm';
+
+const Contact = () => {
+    return (<section id='contact'>
+        <h5>Lets Get Social</h5>
+      <h2>Contact Me</h2>
+        <ContactForm />
+    </section>  );
+}
+ 
+export default Contact;

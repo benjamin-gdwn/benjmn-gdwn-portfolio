@@ -1,0 +1,38 @@
+.project__container {
+    display: flex;
+    flex-flow: row;
+    gap: 2.5rem;
+    overflow: scroll;
+}
+.project__item {
+    background: var(--color-primary-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    /* aspect-ratio: 1/0.5; */
+}
+.project__item:hover {
+    border-color: var(--color-primary);
+    background: var(--color-bg-variant);
+}
+.project__item-image {
+    border: 1.5rem;
+    overflow: hidden;
+    /* max-width: 100%;
+    margin: 0;
+    padding: 0; */
+}
+.project__item h3 {
+    margin: 1.2rem 0 2rem;
+}
+.portfolio__item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+/* project__tools{
+    margin-bottom: 10rem auto;
+} */
