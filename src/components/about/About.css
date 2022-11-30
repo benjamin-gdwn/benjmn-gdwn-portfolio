@@ -18,14 +18,10 @@
 
 }
 .about__me-image {
-    border: 1px solid green;
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
 }
-.about__me-image:hover{
-    transform: rotate(0);
-}
+
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

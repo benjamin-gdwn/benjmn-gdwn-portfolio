@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import './Contact.css'
 export const ContactForm = () => {
   const form = useRef();
 
@@ -25,7 +25,7 @@ export const ContactForm = () => {
       <input type="email" name="user_email" />
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <input className='btn btn-primary center'type="submit" value="Send" />
     </form>
   );
 };

@@ -2,7 +2,8 @@ import './About.css'
 import {MdOutlineSchool} from 'react-icons/md'
 import {HiOutlineDesktopComputer} from 'react-icons/hi'
 import {FaTools} from 'react-icons/fa'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/profile.png'
+
 const About = () => {
     return ( <section id='about'>
         <h5>Get To Know</h5>
