@@ -1,0 +1,36 @@
+footer {
+  width: 60%;
+  margin: 6rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.left-container {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  display: flex;
+}
+.right-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+}
+.footer-icon {
+  font-size: 2rem;
+  margin: 3px auto;
+  padding: 3px auto;
+  color: var(--color-light);
+}
+.footer-icon a {
+  box-sizing: border-box;
+}
+.footer-text {
+  font-size: 1.33rem;
+  margin-bottom: 3rem;
+  padding: 0 auto;
+  color: var(--color-light);
+}

@@ -1,12 +1,11 @@
 import "./Projects.css";
 import Guess from "../../assets/guess-the-word.png";
 import Repo from "../../assets/github-repo.png";
-import Drum from "../../assets/js-drunmkit.png";
 import Sticky from "../../assets/sticky-note.png";
 import Unplugged from "../../assets/unplugged.png";
 import Food from "../../assets/food-order-app.png";
 import ProjectTemplate from "./ProjectTemplate";
-
+import Drum from '../../assets/js-drunmkit.png'
 
 const project_data = [
   {
@@ -48,7 +47,14 @@ const project_data = [
     image: Repo,
     url: "https://github.com/benjamin-gdwn/github-repo-gallery",
     liveUrl: "https://benjamin-gdwn.github.io/github-repo-gallery/",
-  },
+  },{
+  id: 6,
+  title: "JS Drumkit",
+  skills: "HTML, JavaScript, CSS",
+  image: Drum,
+  url: "https://github.com/benjamin-gdwn/javascript-drum-kit",
+  liveUrl: "https://benjamin-gdwn.github.io/javascript-drum-kit/",
+  }
 ];
 const Projects = () => {
   const projectList = project_data.map((project) => (
@@ -71,7 +77,6 @@ const Projects = () => {
       <div className="container project__container">
       {projectList}
       </div>
-      {/* </div> */}
     </section>
   );
 };
